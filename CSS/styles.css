@@ -75,7 +75,7 @@ body {
 }
 
 @media (min-width:1000px){
-    
+
 }
 
 /* Contact */
@@ -129,15 +129,25 @@ body {
 
 /* testimonials */
 
+@media (max-width: 700px){
+    .text-testimonial{
+        font-size: 1.8rem;
+        /* line-height: 1.6rem; */
+    }
+    #testimonials{
+        padding-top: 10rem;
+    }
+}
+
 #testimonials {
     background-color: #FBFF00;
-    padding: 7% 10%;
+    padding: 10% 10%;
 }
 
 .text-testimonial{
     text-align: center;
     font-size: 3rem;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 
